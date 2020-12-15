@@ -16,7 +16,7 @@ export TF_VAR_compartment_name=${compartment_name}
 #echo $TF_VAR_tenancy_ocid
 
 # change in to the directory to get the GBU compartment OCID
-cd ttt/initcompute/gbuocid
+cd gbudemoservices-terraform/initcompute/gbuocid
 
 rm -rf .terraform.d 
 rm -rf .terraform
